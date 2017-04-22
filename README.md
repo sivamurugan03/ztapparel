@@ -1,2 +1,0 @@
-# ztapparel
-zt_website
