@@ -2411,7 +2411,7 @@ p.tp-caption.button-block a{
     margin: 6px 0 0;
 }
 .features-list {
-    padding:40px 0 0 0px;
+    padding:0px 0 0 0px;
 }
 .features-list-left {
     text-align:left;
@@ -5904,6 +5904,9 @@ h3.lowercase{
     text-transform: lowercase;
 }    
 
+h5.head{
+    margin-bottom: 5px;
+}
 
 img.img-circle{
     width: 115px;
@@ -5931,10 +5934,7 @@ img.img-circle{
     padding:50px;
 }
 .pad-60{
-    padding-bottom: 20px;
-    padding-top: 18px;
-    padding-left:60px;
-    padding-right:60px;
+    padding:40px;
 }
 .pad-70{
     padding:70px;
