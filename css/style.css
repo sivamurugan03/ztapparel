@@ -5900,6 +5900,11 @@ ul.tags li{
     height:700px;
 }
 
+h3.lowercase{
+    text-transform: lowercase;
+}    
+
+
 img.img-circle{
     width: 115px;
     height: 115px;
