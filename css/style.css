@@ -5901,6 +5901,8 @@ ul.tags li{
 }
 
 img.img-circle{
+    width: 115px;
+    height: 115px;
     margin-bottom: 30px;
     margin-top: 35px;
 }
