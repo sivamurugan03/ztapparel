@@ -1,4 +1,4 @@
-﻿<?php
+Ã¯Â»Â¿<?php
 /*///////////////////////////////////////////////////////////////////////
 Subscribe Form
 http://www.abileweb.com
@@ -17,11 +17,11 @@ http://creativecommons.org/licenses/by-sa/3.0/us/
 	require_once('MCAPI.class.php');
 	
 	// grab an API Key from http://admin.mailchimp.com/account/api/
-	$api = new MCAPI('fb2cf5423a203a4c98d9a7a0aec77c05-us9');
+	$api = new MCAPI('88b3751a2d41195cad4ac7c668186a91-us15');
 	
 	// grab your List's Unique Id by going to http://admin.mailchimp.com/lists/
 	// Click the "settings" link for the list - the Unique Id is at the bottom of that page. 
-	$list_id = "abe9b3f2a1";
+	$list_id = "c8d2c07d68";
 	
 	// $merge_vars = array('FNAME' => $_POST['fullname']);
 	

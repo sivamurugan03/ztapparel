@@ -1369,6 +1369,8 @@ textarea.form-control.height-82{
 }
 
 /* Image */
+
+
 img {
     height: auto;
     max-width: 100%;
@@ -4709,6 +4711,8 @@ ul.tags li{
     width: 30px;
     color:#fff;
 }
+
+
 .about-author .social-links > li a,.about-author .social-links > li a:hover{
     color:#fff;
     text-decoration:none;
@@ -6256,5 +6260,3 @@ img.img-circle{
 .bg-hover-gray:hover{
     background-color:rgba(0,0,0,.6);
 }
-
-

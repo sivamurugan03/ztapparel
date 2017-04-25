@@ -1,6 +1,6 @@
 <?php
 // Information to be modified
-$to_email = "support@zozothemes.com"; // email address to which the form data will be sent
+$to_email = "christinahepzy@gmail.com"; // email address to which the form data will be sent
 $subject = "Contact Request"; // subject of the email that is sent
 $thanks_page = "index.html"; // path to the thank you page following successful form submission
 $contact_page = "index.html"; // path to the HTML contact page where the form appears
@@ -24,4 +24,14 @@ $email_body =
 	
 
 // Assuming there's no error, send the email and redirect to Thank You page
-if( mail($to_email, $subject, $email_body, $headers) ) {		$msg_array = array( 'status' => 'true', 'data' => '<i class="glyphicon glyphicon-ok"></i> Thank you ' .$nam. '. Your Email was successfully sent!' );   	echo json_encode($msg_array);	} else {		$msg_array = array( 'status' => 'true', 'data' => '<i class="glyphicon glyphicon-remove"></i> Sorry ' .$nam. '. Your Email was not sent. Resubmit form again Please..' );   	echo json_encode($msg_array);	}
+if (mail($to_email, $subject, $email_body, $headers)) {
+    $msg_array = array(
+        'status' => 'true', 'data' => '<i class="glyphicon glyphicon-ok" style="background-color:yellow"></i><font color="Yellow"> Thank you ' . $nam . '. Your Email was successfully sent!</font>'
+    );
+    echo json_encode($msg_array);
+} else {
+    $msg_array = array(
+        'status' => 'true', 'data' => '<i class="glyphicon glyphicon-remove" style="background-color:yellow"></i><font color="red"> Sorry ' . $nam . '. Your Email was not sent. Resubmit form again Please..</font>'
+    );
+    echo json_encode($msg_array);
+}

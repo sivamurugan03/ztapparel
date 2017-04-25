@@ -476,6 +476,7 @@ li.search-dropdown a {
 	line-height: 40px;
 }
 /* Logo Styles */
+
 .navbar-brand{
 	padding: 0;
 	height:auto;
@@ -487,6 +488,7 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
+        padding-top: 8px;
 	width: 155px;
 }
 /* Shop Header */
