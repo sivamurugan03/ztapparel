@@ -364,7 +364,7 @@ section,
     max-width: 1200px;
 }
 .page-section{
-    padding:75px 0;    
+    padding: 75px 0px 0px 0px;    
     display: block;
     overflow: hidden;
     position: relative;
@@ -2937,9 +2937,9 @@ div.count-number:before{
     top: 0px;
     z-index: 2;
 }
-.piechart span:after {
+/*.piechart span:after {
     content: '%';
-}
+}*/
 
 /* Item-box */
 .item-box{
@@ -5986,7 +5986,8 @@ img.img-circle{
     padding-top:10px;
 }
 .top-pad-20{
-    padding-top:20px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .top-pad-30{
     padding-top:30px;
