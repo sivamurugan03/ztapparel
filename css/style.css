@@ -126,7 +126,7 @@ body {
     -webkit-appearance: none;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
-    font-size:14px;
+    font-size: 16px;
 }
 input,
 button,
@@ -5988,6 +5988,23 @@ img.img-circle{
 .top-pad-20{
     padding-top: 20px;
     padding-left: 20px;
+}
+
+.mission{
+    padding-top: 20px;
+    padding-left: 17%;    
+}
+
+span.points{
+    font-size: 17px;    
+}
+
+img.cover{
+    width: 70%;
+}
+
+blockquote.quote {
+    border-left: 5px solid #fff; 
 }
 .top-pad-30{
     padding-top:30px;
