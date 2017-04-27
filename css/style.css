@@ -6006,6 +6006,11 @@ img.cover{
 blockquote.quote {
     border-left: 5px solid #fff; 
 }
+
+.fashion{
+   padding-top: 20px;
+}
+
 .top-pad-30{
     padding-top:30px;
 }
