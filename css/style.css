@@ -1360,8 +1360,23 @@ textarea.form-control.height-82{
 .border-tb{	
     border-bottom: 1px solid #f2f2f2;
     border-top: 1px solid #f2f2f2;
+    margin-top: 5%;
 }
 
+i.fa.fa-skyatlas.fa-2x.border-black.shiicon{
+    top: -21px;
+}
+i.fa.fa-tencent-weibo.fa-2x.border-black.ontimeicon{
+    top: -23px;
+}
+
+li.features-list-item.shi{
+    padding-top: 0px;
+}
+
+li.features-list-item.ontime{
+    padding-top: 0px;
+}
 /* Transition Effects */
 
 .item-box:hover i{
@@ -2306,9 +2321,14 @@ p.tp-caption.button-block a{
 }
 .special-feature h4{
     font-size:20px;
-    margin-top:25px;
     position:relative;
 }
+
+.special-feature p{
+    font-size: 13px;
+    text-align: justify;
+}
+
 .special-feature .mask-top{
     width:100%;
     background-color:#ffffff;
@@ -2348,6 +2368,11 @@ p.tp-caption.button-block a{
     margin-bottom:20px;
     cursor:pointer;
 }
+
+div.s-feature-box.fabric{
+    background-color: white;    
+}
+
 .special-feature .mask-bottom{
     color:#333333;
     padding:20px 15px 20px 15px;
@@ -2979,7 +3004,7 @@ div.count-number:before{
 .item-box.icons-color:hover i{
     color: #171717;
 }
-.item-box.icons-color.hover-white:hover i{
+.item-box.icons-s..hover-white:hover i{
     color: #ffffff;
 }
 
@@ -4742,7 +4767,7 @@ ul.tags li{
 /*Charity*/
 #about-us  blockquote{
     font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     line-height: 1.625;
     margin-bottom: 0;
@@ -5916,7 +5941,7 @@ img.img-circle{
     width: 200px;
     height: 200px;
     margin-bottom: 30px;
-    margin-top: 35px;
+    margin-top: -40px;
 }
 /* 4 Side Padding */
 .pad-5{
@@ -6003,12 +6028,14 @@ img.cover{
     width: 70%;
 }
 
-blockquote.quote {
-    border-left: 5px solid #fff; 
+.testimonails blockquote{
+    font-size:15px;
+    font-style:italic;
+    margin-bottom:0;
 }
 
 .fashion{
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
 .top-pad-30{
