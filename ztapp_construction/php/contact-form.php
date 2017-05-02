@@ -1,6 +1,6 @@
 <?php
 // Information to be modified
-$to_email = "christinahepzy@gmail.com"; // email address to which the form data will be sent
+$to_email = "shivazcodia@gmail.com"; // email address to which the form data will be sent
 $subject = "Contact Request"; // subject of the email that is sent
 $thanks_page = "index.html"; // path to the thank you page following successful form submission
 $contact_page = "index.html"; // path to the HTML contact page where the form appears

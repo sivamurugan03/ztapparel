@@ -17,11 +17,13 @@ http://creativecommons.org/licenses/by-sa/3.0/us/
 	require_once('MCAPI.class.php');
 	
 	// grab an API Key from http://admin.mailchimp.com/account/api/
-	$api = new MCAPI('81fc03a86df8f5cf6f8f8f944da2c87e-us15');
+//	$api = new MCAPI('81fc03a86df8f5cf6f8f8f944da2c87e-us15');
+	$api = new MCAPI('8ca77d7fe36aa8f7b81ad0cf855a6a15-us11');
 	
 	// grab your List's Unique Id by going to http://admin.mailchimp.com/lists/
 	// Click the "settings" link for the list - the Unique Id is at the bottom of that page. 
-	$list_id = "c8d2c07d68";
+//	$list_id = "c8d2c07d68";
+	$list_id = "9d85fe657f";
 	
 	// $merge_vars = array('FNAME' => $_POST['fullname']);
 	
