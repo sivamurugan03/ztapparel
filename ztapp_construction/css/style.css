@@ -2453,7 +2453,8 @@ div.s-feature-box.fabric{
     list-style:none;
     padding:20px 0;
     line-height:2;
-    font-size:15px;
+    /*font-size:15px;*/
+    font-size:16px;
     font-weight:300;
     position:relative;
 }
